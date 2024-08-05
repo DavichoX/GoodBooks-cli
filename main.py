@@ -1,4 +1,5 @@
-from Sales import clients
+from Client import clients
+import string
 def register():
         name = input("Primer Nombre: ")
         if string.digits in name:
